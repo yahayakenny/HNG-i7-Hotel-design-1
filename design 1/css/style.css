@@ -1,0 +1,118 @@
+/* logo */
+.logo{
+    align-items: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+}
+.image1{
+    position: relative;
+    top: 0;
+}
+.image2{
+    position: absolute;
+    top: 60px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.nav-link{
+    margin: 20px; 
+}
+.active .nav-link{
+    color: orangered !important;
+}
+/*-------slider----*/
+#slider{
+    width: 100%;
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial !important;
+}
+.carousel-caption h3{
+    color: #fff;
+    font-size: 45px;
+}
+/* about */
+#about .container{
+    width: 80%;
+    align-content: center;
+}
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+h3::after{
+    content: '';
+    background: black;
+    display: block;
+    height: 3px;
+    width: 50px;
+    margin: 7px auto 5px;
+}
+.special{
+    color: orangered;
+    font-weight: bold;
+    font-size: 40px;
+}
+.about-content{
+    color: rgb(65, 64, 64);
+    padding-top: 20px;
+}
+.about-content p{
+    text-align: left;
+    color: rgb(65, 64, 64);
+    padding-top: 20px;
+}
+.suite{
+    border: 1px;
+    border-radius: 50%;
+}
+/* booking */
+#booking{
+    background-color: #800000;
+}
+#booking h2, p{
+    text-align: center;
+    color: #fff;
+}
+img .card-title{
+    width: 100%;
+}
+.booking-image {
+    filter: sepia(.3);
+}
+.divider {
+    background-color: rgba(192, 189, 189, 0.897);
+    height: 1px;
+    margin: 10px 0px;
+}
+.text-orangered {
+    color: orangered;
+}
+.border-none {
+    border: 1px solid transparent;
+}
+
+@media screen and (max-width: 768px){
+    .flex {
+        display: flex;
+        flex-direction: column;
+        margin-left: 130px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .suite-container img{
+        width: 300px;
+        margin-left: -13px
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+        margin-left: 68px;
+    }
+}
